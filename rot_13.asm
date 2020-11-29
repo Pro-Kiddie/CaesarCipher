@@ -3,7 +3,9 @@
 ; ROT 13 is a special case of the Caesar cipher, developed in acient Rome. It is a simple letter
 ; substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.
 
-%include "io.inc" 
+%include "io.inc"
+; SASM includes crossplatform input/output library "io.inc" for NASM. E.g. PRINT_STRING & GET_STRING used in this program.
+; It contains I/O macro and 2 additional macro: CMAIN - entry point and CEXTERN for invoking functions, located in C language libraries 
 
 ; Section to store variables
 section .data
